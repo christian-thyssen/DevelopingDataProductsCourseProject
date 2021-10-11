@@ -1,5 +1,6 @@
 library(shiny)
 library(splines)
+library(dplyr)
 library(ggplot2)
 
 shinyServer(function(input, output) {
